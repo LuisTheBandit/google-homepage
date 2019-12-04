@@ -1,0 +1,1 @@
+THis is a brief introduction of what I have learned so far as well as the skills I have adquired

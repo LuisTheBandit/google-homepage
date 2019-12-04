@@ -1,0 +1,219 @@
+* {
+
+  margin:0;
+  padding:0;
+}
+html{
+height: 100px;
+
+}
+
+
+body {
+  
+  background: white;
+  min-height: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+}
+
+#upper-na 
+{
+
+margin-right: 27px;
+
+font-size: 13px;
+
+}
+
+
+#upper-na span {
+/*padding-left: 27px;*/
+}
+
+
+#avatar {
+
+
+
+}
+
+#avatar a {
+  width: 10px;
+  height:10px;
+  display: block;
+border-radius: 50%;
+background-image: url(avatar.jpg);
+background-size: 32px 32px;
+margin-top:6px;
+
+}
+
+form {
+margin: 0;
+text-align: center;
+
+}
+
+#logo-div {
+  display: block;
+text-align: center;
+width: 90vw;
+margin: auto;
+padding: 30px 20px;
+grid-row-start: 2; /* set footer in a strange way , see css grid*/
+  grid-row-end: 3;
+margin-top:80px;
+
+
+
+}
+
+.services {
+ display: inline-block;
+  margin:4px 0px;
+  
+  float: right;
+  color: rgba(0,0,0,0.87);
+  font-size: small;
+  padding: 10px;
+
+}
+
+
+
+span a {
+    color: rgba(0,0,0,0.87);
+text-decoration: none; 
+
+  
+}
+
+#search-bar {
+  background-color: transparent;
+  border-radius: 90px 90px;
+  height: 34px;
+  margin-bottom: 20px;
+  height: 34px !important;
+  margin-top:30px;
+ 
+}
+    
+ 
+    button {
+      height:36px;
+      line-height: 27px;
+    border-radius:4px;
+    font-size:14px;
+    margin: 11px 4px;
+    border: 1px solid rgb(242,242,242);
+    padding:0px 15px;
+ background-color:#f2f2f2;
+    color:#5F6368; 
+   font-family: arial,sans-serif;
+                 }
+
+
+  button:hover {
+  
+  border: 1px solid #5F6368;
+  
+}
+
+#offered {
+  
+  color:#222;
+  text-decoration:none;
+  font-size: small;
+  margin-top: 10px;
+  font-family: arial,sans-serif;
+}
+
+/*#offered a {
+ 
+  color: #1a0dab !important;
+}*/
+
+a {
+  
+  text-decoration: none;
+}
+
+#search-bar:hover {
+  border: solid 1px;
+  text-shadow: 2px 2px #ff0000;
+  
+  
+}
+
+
+
+#country {
+font-family: arial,sans-serif;
+color: rgba(0,0,0,.54);
+border-top: 1px solid lightgrey;
+font-size: 15px;
+background:#f2f2f2;
+padding: 10px 19px;
+border-bottom: 0.5px solid lightgrey
+}
+
+#country p {
+margin-left: 20px;
+
+}
+
+
+.left-nav  {
+ background:#f2f2f2 ;
+/*float: left;*/
+padding-left:27px;
+color: #5f6368;
+text-decoration: none;
+font-size: 13px;
+font-family: arial;
+
+
+}
+
+
+.right-nav  {
+  
+ background:#f2f2f2 ;
+float: right;
+padding-left:27px;
+color: #5f6368;
+text-decoration: none;
+font-size: 13px;
+font-family: arial;
+
+}
+
+#footer
+{
+/*display: block;*/
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   background:#f2f2f2 !important;
+  /*margin-top: 50px;*/
+
+}
+
+
+#bottom-nav {
+padding: 10px 19px;
+ background:#f2f2f2 !important;
+ margin-right:27px;
+
+}
+
+
+#logo {
+
+  margin-top: 20px;
+}
+
